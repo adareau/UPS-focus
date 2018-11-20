@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "UPS Focus",
+  "version": "0.1",
+  "description": "Accès automatisé aux ressources bibliographiques via la plateforme focus (https://focus.universite-paris-saclay.fr/) de l'université Paris-Saclay (BETA)",
+  "homepage_url": "https://github.com/adareau",
+  "icons": {
+    "96": "icons/focus-96.png",
+    "48": "icons/focus-48.png"
+  },
+
+  "applications": {
+  "gecko": {
+    "id": "alexandre.dareau@gmail.com"
+  }
+},
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/focus-32.png",
+    "default_title": "focus"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "commands": {
+  "toggle-feature": {
+    "suggested_key": { "default": "Ctrl+Shift+F" },
+    "description": "Send a 'toggle-feature' event to the extension"
+  }
+},
+
+"options_ui": {
+    "page": "options.html",
+    "browser_style": true
+}
+
+}

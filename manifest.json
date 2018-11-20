@@ -3,7 +3,7 @@
   "name": "UPS Focus",
   "version": "0.1",
   "description": "Accès automatisé aux ressources bibliographiques via la plateforme focus (https://focus.universite-paris-saclay.fr/) de l'université Paris-Saclay (BETA)",
-  "homepage_url": "https://github.com/adareau",
+  "homepage_url": "https://github.com/adareau/UPS-focus",
   "icons": {
     "96": "icons/focus-96.png",
     "48": "icons/focus-48.png"
